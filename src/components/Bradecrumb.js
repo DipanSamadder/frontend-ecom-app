@@ -1,10 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
+import { Link } from "react-router-dom";
 const Bradecrumb = (props) => {
   const { title } = props;
   return (
-    <div className="py-5">
+    <div className="py-3">
       <div className="container-xxl">
         <div className="row">
           <div className="col-md-12">
