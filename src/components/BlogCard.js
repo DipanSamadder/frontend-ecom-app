@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BlogCard = () => {
   return (
@@ -13,7 +14,7 @@ const BlogCard = () => {
           Many things about electronic devices your kids don't want you to
           knowHow storage devices can
         </p>
-        <a href="/"> Read More </a>
+        <Link to="/blog:id"> Read More </Link>
       </div>
     </div>
   );

@@ -647,14 +647,39 @@ footer .contact-details a {
 
 /***compare card**/
 
-.compare-card .close svg {
+.compare-card .close svg,
+.wishlist-card .close svg {
   padding: 5px;
   border-radius: 50%;
   font-size: 24px;
   cursor: pointer;
 }
-.compare-card .close:hover svg {
+.compare-card .close:hover svg,
+.wishlist-card .close:hover svg {
   color: #fff;
   background: #ffbe70;
 }
 /***compare card end here**/
+
+/**login **/
+
+.login .button {
+  background-color: var(--color-232f3e);
+  color: #fff;
+  padding: 8px 25px;
+  border-radius: 30px;
+  font-size: 15px;
+  border: 0px;
+  min-width: 100px;
+}
+
+.login .button:hover {
+  background-color: var(--color-febd69);
+}
+/**login end here **/
+
+/**blog Single**/
+.blog-single a {
+  color: inherit;
+}
+/**blog Single end here**/

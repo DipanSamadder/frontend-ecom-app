@@ -343,10 +343,18 @@ const Home = () => {
             <div className="col-12">
               <h4 className="mb-3">Our Latest News</h4>
             </div>
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
+            <div className="col-3">
+              <BlogCard />
+            </div>
+            <div className="col-3">
+              <BlogCard />
+            </div>
+            <div className="col-3">
+              <BlogCard />
+            </div>
+            <div className="col-3">
+              <BlogCard />
+            </div>
           </div>
         </div>
       </section>
