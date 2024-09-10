@@ -331,7 +331,8 @@ footer .contact-details a {
 
 /**Product Card**/
 
-.product-card {
+.product-card,
+.contact-form {
   background-color: #fff;
   border-radius: 6px;
   box-shadow: 0 0 10px #0000001a;
@@ -618,3 +619,42 @@ footer .contact-details a {
 }
 
 /***filter-card  end here*/
+
+/***product compare -card  end here*/
+.compare-card .items:not(:last-child) {
+  border-bottom: 1px solid #d4d4d4;
+}
+.compare-card .items {
+  font-size: 12px;
+  padding: 8px 0px;
+}
+/***product compare -card  end here*/
+
+/***colors compononet**/
+.colors ul {
+  list-style: none;
+  display: flex;
+  gap: 2px;
+  margin-bottom: 0px;
+}
+.colors ul li {
+  height: 12px;
+  width: 12px;
+  background-color: red;
+  border-radius: 50%;
+}
+/***colors compononet end**/
+
+/***compare card**/
+
+.compare-card .close svg {
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+}
+.compare-card .close:hover svg {
+  color: #fff;
+  background: #ffbe70;
+}
+/***compare card end here**/
