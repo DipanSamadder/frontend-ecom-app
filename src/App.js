@@ -12,6 +12,7 @@ import ProductCompare from "./pages/ProductCompare";
 import Reset from "./pages/Reset";
 import Signup from "./pages/Signup";
 import SingleBlog from "./pages/SingleBlog";
+import SingleProduct from "./pages/SingleProduct";
 import Wishlist from "./pages/Wishlist";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="store" element={<OurStore />} />
+          <Route path="store/:id" element={<SingleProduct />} />
           <Route path="blog" element={<Blog />} />
           <Route path="blog:id" element={<SingleBlog />} />
           <Route path="compare" element={<ProductCompare />} />

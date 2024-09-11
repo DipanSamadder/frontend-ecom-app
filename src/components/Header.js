@@ -60,7 +60,7 @@ const Header = () => {
                     to="/compare"
                     className="d-flex align-items-center gap-10 text-white"
                   >
-                    <img src="images/compare.svg" alt="compare" />
+                    <img src="/images/compare.svg" alt="compare" />
                     <p>
                       Compare
                       <br />
@@ -73,7 +73,7 @@ const Header = () => {
                     to="/wishlist"
                     className="d-flex align-items-center gap-10 text-white"
                   >
-                    <img src="images/wishlist.svg" alt="wishlist" />
+                    <img src="/images/wishlist.svg" alt="wishlist" />
                     <p>
                       Favourite
                       <br />
@@ -86,7 +86,7 @@ const Header = () => {
                     to="/login"
                     className="d-flex align-items-center gap-10 text-white"
                   >
-                    <img src="images/user.svg" alt="user" />
+                    <img src="/images/user.svg" alt="user" />
                     <p>
                       Log in
                       <br />
@@ -99,7 +99,7 @@ const Header = () => {
                     to="/contact"
                     className="d-flex align-items-center gap-10 text-white"
                   >
-                    <img src="images/cart.svg" alt="compare" />
+                    <img src="/images/cart.svg" alt="compare" />
                     <div className="d-flex flex-column gap-10">
                       <span className="badge bg-white text-dark">0</span>
                       <p>$ 500</p>

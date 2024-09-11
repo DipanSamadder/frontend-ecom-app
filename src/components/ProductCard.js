@@ -13,13 +13,13 @@ const ProductCard = ({ grid }) => {
         } mb-3 ${grid === 12 ? "row-view" : ""}`}
       >
         <div className="product-card position-relative">
-          <Link className="product-image">
-            <img src="images/tab1.jpg" className="img-fluid" alt="tab" />
-            <img src="images/tab2.jpg" className="img-fluid" alt="tab" />
+          <Link to="/store/:id" className="product-image">
+            <img src="/images/tab1.jpg" className="img-fluid" alt="tab" />
+            <img src="/images/tab2.jpg" className="img-fluid" alt="tab" />
           </Link>
 
           <div className="product-content">
-            <Link>
+            <Link to="/store/:id">
               <p className="mb-2 category">Momax</p>
               <h6 className="mb-2 title">
                 Vybrix Magnetic Power Bank Wireless Charging
@@ -42,10 +42,10 @@ const ProductCard = ({ grid }) => {
                 quiet="false"
                 readonly="false"
                 emptySymbol={
-                  <img src="images/star-grey.png" className="icon" />
+                  <img src="/images/star-grey.png" className="icon" />
                 }
                 fullSymbol={
-                  <img src="images/star-yellow.png" className="icon" />
+                  <img src="/images/star-yellow.png" className="icon" />
                 }
               />
             </p>
@@ -56,20 +56,20 @@ const ProductCard = ({ grid }) => {
           <div className="product-hover-icons position-absolute">
             <div className="d-flex flex-column align-items-center">
               <div className="icons">
-                <img className="img-fluid" src="images/wish.svg" alt="" />
+                <img className="img-fluid" src="/images/wish.svg" alt="" />
               </div>
               <div className="icons">
                 <img
                   className="img-fluid"
-                  src="images/prodcompare.svg"
+                  src="/images/prodcompare.svg"
                   alt=""
                 />
               </div>
               <div className="icons">
-                <img className="img-fluid" src="images/view.svg" alt="" />
+                <img className="img-fluid" src="/images/view.svg" alt="" />
               </div>
               <div className="icons">
-                <img className="img-fluid" src="images/add-cart.svg" alt="" />
+                <img className="img-fluid" src="/images/add-cart.svg" alt="" />
               </div>
             </div>
           </div>
