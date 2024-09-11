@@ -882,3 +882,58 @@ footer .contact-details a {
   color: var(--color-232f3e);
 }
 /***single-product end here***/
+
+/* cart */
+
+.cartpage .cart-table > :not(caption) > * > * {
+  background: transparent;
+}
+
+.cartpage .cart-table thead > tr > th:last-child,
+.cartpage .cart-table tbody > tr > td:last-child {
+  text-align: right;
+}
+
+.cartpage .quantity .quantity__input {
+  font-weight: 500;
+  opacity: 0.85;
+  text-align: center;
+  border: 0;
+  height: 30px;
+  width: 60px;
+}
+
+.cartpage .quantity {
+  border: 1px solid var(--color-888888);
+  position: relative;
+  width: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.cartpage .quantity-des svg {
+  font-size: 25px;
+  margin-left: 10px;
+  color: red;
+}
+.cartpage .cart-table tbody > tr > td {
+  padding: 15px 0px;
+}
+
+.cartpage .continue-button a,
+.cartpage .checkout-button a {
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-size: 15px;
+  margin-right: 10px;
+  background-color: var(--color-febd69);
+}
+.cartpage .checkout-button a {
+  width: 100%;
+  text-align: center;
+}
+.cartpage .continue-button a:hover {
+  background-color: var(--color-232f3e);
+}
+/* cart end here */
