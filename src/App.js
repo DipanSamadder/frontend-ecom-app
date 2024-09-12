@@ -4,6 +4,7 @@ import Layout from "./components/Layout";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
 import Cart from "./pages/Cart";
+import Checkout from "./pages/Checkout";
 import Contact from "./pages/Contact";
 import Forget from "./pages/Forget";
 import Home from "./pages/Home";
@@ -35,6 +36,7 @@ function App() {
           <Route path="forget" element={<Forget />} />
           <Route path="reset" element={<Reset />} />
           <Route path="cart" element={<Cart />} />
+          <Route path="checkout" element={<Checkout />} />
         </Route>
       </Routes>
     </Router>
