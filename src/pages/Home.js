@@ -6,9 +6,8 @@ import Container from "../components/Container";
 import ProductCard from "../components/ProductCard";
 import SpecialCard from "../components/SpecialCard";
 import { services } from "../utils/Data";
-const Home = () => {
-  console.log(services);
 
+const Home = () => {
   return (
     <>
       <Container className="home-wrapper-1 py-5">

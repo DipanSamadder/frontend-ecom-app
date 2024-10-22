@@ -3,7 +3,6 @@ import Rating from "react-rating";
 import { Link, useLocation } from "react-router-dom";
 const ProductCard = ({ grid }) => {
   const location = useLocation();
-  console.log(grid);
 
   return (
     <>
